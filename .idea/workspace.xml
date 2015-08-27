@@ -26,9 +26,11 @@
       <file leaf-file-name="Hello_World.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/w1c2/Hello_World.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17952128">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="0.31914893">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -402,12 +404,12 @@
       <created>1440708978592</created>
       <option name="number" value="Default" />
       <updated>1440708978592</updated>
-      <workItem from="1440708980553" duration="1204000" />
+      <workItem from="1440708980553" duration="1487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1204000" />
+    <option name="totallyTimeSpent" value="1487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1400" height="873" extended-state="0" />
@@ -452,9 +454,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/IC/w1c2/Hello_World.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17952128">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.31914893">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
