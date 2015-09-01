@@ -4,36 +4,122 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
+<style>
+    #header {
+        background-color:limegreen;
+        color:lawngreen;
+        text-align:center;
+        padding:3px;
+    }
+    #links {
+        background-color:limegreen;
+        color:lawngreen;
+        text-align:center;
+        padding:3px;
+    }
+    #sidebar {
+        line-height:30px;
+        background-color:limegreen;
+        width:200px;
+        height:700px;
+        float:left;
+        padding:5px;
+        text-align:center;
+    }
+    #meat {
+        width:350px;
+        float:left;
+        padding:10px;
+    }
+    #footer {
+        background-color:limegreen;
+        color:lawngreen;
+        clear:both;
+        text-align:center;
+        padding:5px;
+    }
+</style>
+
 <body>
 
-<table>
 
-<header>
-    <h1>Most important heading here</h1>
-    <h3>Less important heading here</h3>
-    <p>Some additional information here</p>
-</header>
+    <div id="header">
+        <h1>Sean's Website</h1>
+    </div>
 
-<ul>
-    <li><a href="Homepage.html">Home</a></li>
-    <li><a href="Forms.html">Forms</a></li>
-</ul>
+
+    <div id="links">
+        <a href="Homepage.html">Home</a>
+        <a href="Forms.html">Forms</a>
+    </div>
+
+    <div id="sidebar">
+        <p>This is my side panel!</p>
+    </div>
+
+    <div id="meat">
+    <p>Tables!</p>
+
+    <table style="width:10%">
+       <tr>
+           <th>Header 0</th>
+       </tr>
+        <tr>
+            <td>Testing</td>
+            <td>One</td>
+        </tr>
+        <tr>
+            <td>Testing</td>
+            <td>Two</td>
+        </tr>
+    </table>
+
 
 <table border="1">
     <tr>
-        <th>Month</th>
-        <th>Savings</th>
+        <th>Header1</th>
+        <th>Header2</th>
     </tr>
     <tr>
-        <td>January</td>
-        <td>$100</td>
+        <td>Bordered</td>
+        <td>Table</td>
     </tr>
     <tr>
-        <td>February</td>
-        <td>$80</td>
+        <td>Bordered</td>
+        <td>Table</td>
     </tr>
 </table>
+    <p>Lists!</p>
 
-</table>
+
+    <ul>
+        <li>ICS</li>
+        <li>SPAN</li>
+        <li>ACM</li>
+    </ul>
+
+    <ol>
+            <li>ICS</li>
+            <li>SPAN</li>
+            <li>ACM</li>
+    </ol>
+
+    <dl>
+        <dt>ICS</dt>
+        <dd>Computer Science</dd>
+        <dt>SPAN</dt>
+        <dd>Spanish</dd>
+        <dt>ACM</dt>
+        <dd>Academy for Creative Media</dd>
+    </dl>
+    </div>
+
+    <div id="footer">
+
+        <p>Copyright (C) Sean Baran</p>
+
+    </div>
+
+
 </body>
 </html>

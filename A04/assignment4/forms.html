@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
 
-    <ul>
-        <li><a href="Homepage.html">Home</a></li>
-        <li><a href="Forms.html">Forms</a></li>
-    </ul>
+    <style>
+        #header {
+            background-color:limegreen;
+            color:lawngreen;
+            text-align:center;
+            padding:3px;
+        }
+        #links {
+            background-color:limegreen;
+            color:lawngreen;
+            text-align:center;
+            padding:3px;
+        }
+        #sidebar {
+            line-height:30px;
+            background-color:limegreen;
+            width:200px;
+            height:700px;
+            float:left;
+            padding:5px;
+            text-align:center;
+        }
+        #meat {
+            width:350px;
+            float:left;
+            padding:10px;
+        }
+        #footer {
+            background-color:limegreen;
+            color:lawngreen;
+            clear:both;
+            text-align:center;
+            padding:5px;
+        }
+    </style>
+
+    <div id="header">
+        <h1>Sean's Website</h1>
+    </div>
+
+    <div id="links">
+        <a href="Homepage.html">Home</a>
+        <a href="Forms.html">Forms</a>
+    </div>
+
+    <div id="sidebar">
+        <p>This is my side panel. EXCEPT THIS TIME IT'S ON THE FORMS PAGE :O</p>
+    </div>
 
     <p>The Following is a text input</p>
-    <form action="action_page.php">
+    <form action="forms.html">
         Username:
         <input type="text" name="firstname" value="Enter">
         <br>
@@ -22,13 +66,18 @@
 
         <p>Checkboxes!</p>
 
-        <input type="checkbox" name="vehicle" value="check1">Red<br>
-        <input type="checkbox" name="vehicle" value="check2">Green<br>
-        <input type="checkbox" name="vehicle" value="check2">Blue
+        <input type="checkbox" name="color" value="check1">Red<br>
+        <input type="checkbox" name="color" value="check2">Green<br>
+        <input type="checkbox" name="color" value="check2">Blue
         <br>
         <input type="submit" value="Submit">
     </form>
 
+    <div id="footer">
+
+        <p>Copyright (C) Sean Baran</p>
+
+    </div>
     <title></title>
 </head>
 <body>
