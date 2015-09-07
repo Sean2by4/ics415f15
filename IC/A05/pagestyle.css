@@ -1,0 +1,81 @@
+
+#header {
+    background-color:darkslateblue;
+    color:whitesmoke;
+    height: 250px;
+    border-style: outset;
+    border-width: 10px;
+    border-color:lightskyblue;
+}
+#header h1{
+    text-align:center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#links {
+    background-color:darkslateblue;
+    text-align:center;
+    height:50px;
+    border-style:outset;
+    border-size:5px;
+    border-color:lightskyblue;
+}
+
+
+#sidebar {
+    line-height:30px;
+    background-color:darkslateblue;
+    width:350px;
+    height:500px;
+    float:left;
+    text-align:center;
+    border-style: outset;
+    border-width: 5px;
+    border-color:lightskyblue;
+}
+#meat {
+    width:300px;
+    height:500px;
+    float:left;
+    text-align:center;
+
+}
+#footer {
+    background-color:darkslateblue;
+    color:whitesmoke;
+    clear:both;
+    text-align:center;
+    height:50px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:lightskyblue;
+}
+
+html{
+    background: url('http://7-themes.com/data_images/out/62/6983203-blue-pattern-background.jpg')  0 scroll;
+    height:100%;
+    width:100%;
+}
+
+body
+{
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+}
+
+a:link {
+    color:whitesmoke;
+}
+
+a:visited {
+    color:black;
+}
+
+* {
+    color: #fff;
+    text-align:center;
+}
