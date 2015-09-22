@@ -18,19 +18,21 @@ function validateForm()
     if(un == ""){
         alert('Please Enter First Name');
         document.getElementById('username').style.borderColor = "red";
-    }else{
-        document.getElementById('username').style.borderColor = "green";
     }
-    if (/^[0-9]+$/.test(document.getElementById("username").value)) {
-        alert("First Name Contains Numbers!");
-        document.getElementById('username').style.borderColor = "red";
-    }else{
-        document.getElementById('username').style.borderColor = "green";
+    if(em == ""){
+        alert('Please Enter Email');
+        document.getElementById('email').style.borderColor = "red";
     }
-    if(un.length <=2){
-        alert('Your Name is To Short');
-        document.getElementById('username').style.borderColor = "red";
-    }else{
-        document.getElementById('username').style.borderColor = "green";
+    if(pa == ""){
+        alert('Please Enter Password');
+        document.getElementById('password').style.borderColor = "red";
+    }
+    if(co == ""){
+        alert('Please Enter Password Confirmation');
+        document.getElementById('confirm').style.borderColor = "red";
+    }
+    if(co != pa){
+        alert("Your password and confirmation password do not match.");
+        document.getElementById('confirm').style.borderColor = "red";
     }
 }
