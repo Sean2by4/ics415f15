@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<div lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- code borrowed from w3 for the javascript tabs. (http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tab_events2&stacked=h)-->
+    <head>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+        <style>
+            body {
+                font-family: 'Oswald', serif;
+                font-size: 20px;
+                background-color: salmon;
+                border-color:orangered;
+            }
+
+        </style>
+    </head>
+
+    <div class="page-header" style="text-align:center">
+        <h1>Sean's Website <small>This time with bootstrap</small></h1>
+    </div>
+
+    <nav class="navbar navbar-default" style="height: 50px;>
+
+<div class="navbar-header">
+    <a class="navbar-brand" href="#">SEAN'S WEBSITE!</a>
+</div>
+<div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="Process.html">Home</a></li>
+    </ul>
+</div>
+
+
+<div class="panel panel-default">
+
+    <div class="container-fluid">
+
+        <div class="row" >
+
+            <div class="col-xs-12 col-md-12 show-grid" style="border: solid; height:100px">
+            </div>
+            <div class="col-xs-4 col-md-4 show-grid dis" style="border: solid; height:500px">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">Hide</button>
+                </div>
+
+            </div>
+            <div class="col-xs-4 col-md-4 show-grid dis1" style="border: solid; height:500px">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default b1">Hide</button>
+                </div>
+            </div>
+            <div class="col-xs-4 col-md-4 show-grid dis2" style="border: solid; height:500px">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default b2">Hide</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-xs-12 col-md-12 show-grid clicka" style="border: solid; height:200px; text-align:center">
+                Don't click on me plz
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="panel-footer" style="text-align:center height:50px" >Copyright 2015 Sean Baran</div>
+</div>
+
+<script>
+
+
+
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(".dis").hide(5000);
+        });
+    });
+    $(document).ready(function(){
+        $(".b1").click(function(){
+            $(".dis1").hide(5000);
+        });
+    });
+    $(document).ready(function(){
+        $(".b2").click(function(){
+            $(".dis2").hide(5000);
+        });
+    });
+
+    $(".clicka").click(function(){
+        alert("I TOLD YOU NOT TO CLICK IT");
+    });
+</script>
+
+
+<title></title>
+</head>
+<body>
+
+</body>
+</html>
